@@ -1,0 +1,164 @@
+body {
+    margin-top: 50px;
+}
+
+.jumbotron img {
+    width: 25%;
+}
+
+section {
+    min-height: 420px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top:12px;
+}
+
+.igthumbnail {
+    width: 100px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.igthumbnail img{
+    width: 100px;
+}
+
+#textNavbarr:hover {
+  color: white;
+}
+
+#youtubee {
+  color: white;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    /* Adjust the size as needed */
+    height: auto;
+    z-index: 2;
+  }
+
+  .textHome {
+    position: absolute;
+    top: calc(50% + 20%);
+    /* Menggeser teks sejauh 75px dari pusat */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+  }
+
+  .titleHome {
+    font-size: 60px;
+  }
+
+  .titleHome2 {
+    font-size: 23px;
+  }
+
+@media screen and (max-width: 1000px) {
+  .titleHome {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .logo {
+    top: 30%;
+    width: 170px;
+  }
+
+  .titleHome {
+    font-size: 40px;
+  }
+
+  .titleHome2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .logo {
+    width: 150px;
+  }
+
+  .titleHome {
+    font-size: 30px;
+  }
+
+  .titleHome2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .logo {
+    width: 120px;
+  }
+
+  .titleHome {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .logo {
+    width: 100px;
+  }
+
+  .titleHome {
+    font-size: 22px;
+  }
+
+  .titleHome2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .logo {
+    width: 70px;
+  }
+
+  .titleHome {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 70px;
+  }
+
+  .titleHome {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .logo {
+    width: 50px;
+  }
+
+  .titleHome {
+    font-size: 12px;
+  }
+}
